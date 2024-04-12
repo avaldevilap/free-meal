@@ -1,7 +1,7 @@
 {
   "name": "free-meal",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,13 +9,26 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.29.0",
     "expo": "~50.0.14",
+    "expo-av": "~13.10.5",
+    "expo-blur": "~12.9.2",
+    "expo-constants": "~15.4.5",
+    "expo-image": "^1.10.6",
+    "expo-linking": "~6.2.2",
+    "expo-router": "~3.4.8",
     "expo-status-bar": "~1.11.1",
+    "ofetch": "^1.3.4",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.73.6",
+    "react-native-markdown-display": "^7.0.2",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "react-native-webview": "13.6.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@biomejs/biome": "1.6.4",
     "@types/react": "~18.2.45",
     "typescript": "^5.1.3"
   },
